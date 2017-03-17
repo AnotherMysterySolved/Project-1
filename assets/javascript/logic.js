@@ -1,4 +1,5 @@
 
+
 function yelpInfo {
 	var queryURL = ""
 
@@ -10,3 +11,4 @@ $.ajax({
 
         }
 }
+//Master
