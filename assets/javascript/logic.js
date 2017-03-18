@@ -1,12 +1,5 @@
 
-function yelpInfo {
-	var queryURL = ""
+var userName = $("#name").val().trim();
+var userLocation = $("#startLocation").val().trim();
 
-$.ajax({
-          url: queryURL,
-          method: "GET"
-        }).done(function(response) {
-          event.preventDefault();
-
-        }
-}
+console.log("name: " + userName + " location: " + userLocation);
